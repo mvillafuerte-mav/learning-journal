@@ -1,7 +1,7 @@
 # learning-journal
 In this repository, I will describe my learning journey in the field of technology, focusing on machine learning and mathematics.
 
-Day 1:
+# Day 1:
 I watched the first three chapters of “Essence of Linear Algebra” by 3Blue1Brown. These are my notes:
 
 In linear algebra, there are three main ways to define a vector. The first is the one used by physicists (an arrow with magnitude and direction), the second is the one used by computer scientists (an ordered list of numbers), and the last is the one used by mathematicians (a more abstract object defined by the rules of vector operations).
@@ -17,3 +17,7 @@ In three-dimensional space, the span of two linearly independent vectors is a pl
 Another key topic in linear algebra is the linear transformation: a function that takes vectors to other vectors while preserving two conditions, all lines remain lines (no curving), parallel lines stay parallel and evenly spaced, and the origin remains fixed.
 
 To describe a linear transformation, it is enough to know where the basis vectors i and j land after the transformation, because any other vector can be written as a linear combination of them and will be transformed.
+
+If we apply two or more linear transformations to the space one after another, the result is called a composition. Compositions can be simplified by keeping track of the final coordinates of the unit vectors and treating the whole sequence as a single linear transformation, which is exactly what you get by multiplying the original transformation matrices. 
+
+I find this very interesting because I've worked with matrices before, and now that I see the graphical representation of matrix multiplication, things make sense naturally to me.
